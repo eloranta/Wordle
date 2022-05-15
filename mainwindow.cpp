@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include <QStringList>
+#include "words.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -9,9 +9,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     model = new QStringListModel(this);
 
-    QStringList list;
-    list << "Clair de Lune" << "Reverie" << "Prelude";
-    model->setStringList(list);
+    model->setStringList(words);
 
     ui->listView->setModel(model);
 }
