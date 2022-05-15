@@ -6,7 +6,7 @@
 QStringList words = {
 "aahed",
 "aalii",
-"aargh",
+/*"aargh",
 "aarti",
 "abaca",
 "abaci",
@@ -12950,7 +12950,7 @@ QStringList words = {
 "zygal",
 "zygon",
 "zymes",
-"zymic"
+"zymic"*/
 };
 
 #endif

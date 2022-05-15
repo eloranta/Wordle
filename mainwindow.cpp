@@ -8,9 +8,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     model = new QStringListModel(this);
-
     model->setStringList(words);
-
     ui->listView->setModel(model);
 }
 
